@@ -26,7 +26,7 @@ app.use('/api', routes)
 import './config/database.js'
 
 
-app.listen(process.env.PORT || 5000, function(){
+app.listen(process.env.PORT || 5000,()=>{
     console.log("Express server listening on port")
   });
 
