@@ -12,7 +12,7 @@ app.use(bodyParser.json({ limit: "30mb", extented: true }))
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors())
 
-app.use();
+// app.use();
 
 app.get('/', (req, res) => {
     res.send('API for shah-commerce')
