@@ -25,9 +25,10 @@ app.use('/api', routes)
 // Database
 import './config/database.js'
 
-const PORT = process.env.PORT || 5000
 
-app.listen(PORT)
+app.listen(process.env.PORT || 5000, function(){
+    console.log("Express server listening on port")
+  });
 
 
 
