@@ -1,8 +1,9 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000s\u0000h\u0000a\u0000h\u0000-\u0000e\u0000m\u0000-\u0000c\u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "description": "shah-commercer-server",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
