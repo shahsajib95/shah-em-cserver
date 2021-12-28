@@ -1,16 +1,23 @@
 {
-  "name": "shah-commerce-server",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000s\u0000h\u0000a\u0000h\u0000-\u0000e\u0000m\u0000-\u0000c\u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000\r\u0000 \u0000",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahsajib95/shah-em-cserver.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/shahsajib95/shah-em-cserver/issues"
+  },
+  "homepage": "https://github.com/shahsajib95/shah-em-cserver#readme",
+  "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
